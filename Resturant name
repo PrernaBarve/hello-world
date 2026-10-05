@@ -1,2 +1,6 @@
 name = input("Enter your name: ")
 food = input("Enter your favorite food: ")
+
+restaurant_name = f"{name.capitalize()}'s{food.capitalize()}House"
+slogan = f"The Best{food.capitalize()} in Town!"
+
